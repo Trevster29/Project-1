@@ -1,0 +1,13 @@
+body {
+    padding: 0;
+    margin: 10;
+    background: palegoldenrod;
+    background-image: url(https://www.pngarts.com/files/4/World-Map-PNG-Background-Image.png);
+}
+head {
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: peru;
+}
