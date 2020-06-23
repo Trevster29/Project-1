@@ -3,6 +3,7 @@ body {
     margin: 10;
     background: palegoldenrod;
     background-image: url(https://www.pngarts.com/files/4/World-Map-PNG-Background-Image.png);
+    background-size: cover;
 }
 head {
     padding: 0;
