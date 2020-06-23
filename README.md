@@ -21,3 +21,4 @@ Wesley Stroeber
 <https://github.com/geekcoreaz>
 
 MOQUP for project- https://app.moqups.com/ZlPTcRZOPw/edit/page/a8cfead10
+food fit update- pushed the linked style.css page and background, need media query for scaling
