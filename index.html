@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          
+          <img src="Assets/Images/Australia.jpg" style="width:100%">
+          <div class="text">Australia</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="Assets/Images/Bavaria.jpg" style="width:100%">
+          <div class="text">Bavaria, Germany</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="Assets/Images/dublin.jpg" style="width:100%">
+          <div class="text">Dublin, Ireland</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="Assets/Images/Istanbul.jpg" style="width:100%">
+            <div class="text">Istanbul, Turkey</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="Assets/Images/Macchu Picchu.jpg" style="width:100%">
+            <div class="text">Machu Picchu in Peru</div>
+          </div>
+        
+        </div>
+        <br>
+        
+        
+
+        <h1>Welcome!</h1> 
+        <p>A short catchy sentence or paragraph that draws the user into the website.</p>
+        
+        <div class=btn>
+        <input type="text" class="search">
+        <button id="search">Search</button>
+        </div>
+        
+        <div class="tile is-ancestor">
+          <div class="tile is-4 is-vertical is-parent">
+            <div class="tile is-child box">
+              <p class="title">Currency</p>
+              <h1 class="Currency"></h1>
+            <p class="cOne">US Dollar:</p>
+            <p class="cTwo">Euro:</p>
+            <p class="cThree">Exchange:</p>
+            </div>
+            <div class="tile is-child box">
+              <p class="title">Weather</p>
+              <p class="icon"><img src=""></p>
+              <p class="pOne">Temperature:</p>
+              <p class="pTwo">Humidity:</p>
+              <p class="pThree">Wind Speed:</p> 
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <div class="tile is-child box">
+              <p class="title">Photo</p>
+              <div id="images">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="photo-api.js"></script>
+<script src="weather-api.js"></script>
+</html>
