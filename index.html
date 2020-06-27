@@ -1,105 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" href="style.css" />
-<<<<<<< HEAD
+    <link rel="stylesheet" href="./assets/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-=======
->>>>>>> 7602ce303e55d103fefa31f79c35bcfe5a217a9d
-</head>
-<body>
+  <body>
     <div class="slideshow-container">
 
-        <div class="mySlides fade">
-          
-          <img src="Assets/Images/Australia.jpg" style="width:100%">
-          <div class="text">Australia</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <img src="Assets/Images/Bavaria.jpg" style="width:100%">
-          <div class="text">Bavaria, Germany</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <img src="Assets/Images/cliffs of moher.jpg" style="width:100%">
-          <div class="text">Cliffs of Moher, Ireland</div>
-        </div>
+      <div class="mySlides fade">
+        <img src="./assets/Images/Australia.jpg">
+        <div class="text">Australia</div>
+        <div class="numbertext center">1 / 5</div>
+      </div>
 
-        <div class="mySlides fade">
-            <img src="Assets/Images/Istanbul.jpg" style="width:100%">
-            <div class="text">Istanbul, Turkey</div>
-          </div>
+      <div class="mySlides fade">
+        <img src="./assets/Images/Bavaria.jpg">
+        <div class="text">Bavaria, Germany</div>
+        <div class="numbertext center">2 / 5</div>
+      </div>
 
-          <div class="mySlides fade">
-            <img src="Assets/Images/Macchu Picchu.jpg" style="width:100%">
-            <div class="text" >Machu Picchu in Peru</div>
-          </div>
-        
+      <div class="mySlides fade">
+        <img src="./assets/Images/dublin.jpg">
+        <div class="text">Dublin, Ireland</div>
+        <div class="numbertext center">3 / 5</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./assets/Images/Istanbul.jpg">
+        <div class="text">Istanbul, Turkey</div>
+        <div class="numbertext center">4 / 5</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./assets/Images/Macchu Picchu.jpg">
+        <div class="text">Machu Picchu in Peru</div>
+        <div class="numbertext center">5 / 5</div>
+      </div>
+
+    </div>
+    <br>
+
+
+
+    <h1>Welcome!</h1>
+    <p>A short catchy sentence or paragraph that draws the user into the website.</p>
+
+    <div class="columns">
+      <div class="column is-one-fifth">
+        <input class="search input is-info" type="text" placeholder="Please choose a city">
+      </div>
+      <div class="column"><button id="search" class="button is-dark">Search</button></div>
+      <div class="column"></div>
+    </div>
+    <br><br>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-4 is-vertical is-parent">
+        <div class="tile is-child box">
+          <p class="title">Currency</p>
+          <h1 class="Currency"></h1>
+          <p class="cOne">US Dollar:</p>
+          <p class="cTwo">Euro:</p>
+          <p class="cThree">Exchange:</p>
         </div>
-        <br>
-        
-        
-
-        <h1>Welcome!</h1> 
-        <p>A short catchy sentence or paragraph that draws the user into the website.</p>
-<<<<<<< HEAD
-        
-        <div class=btn>
-        <input type="text" class="search">
-        <button id="search">Search</button>
+        <div class="tile is-child box">
+          <p class="title">Weather</p>
+          <h1 class="city"></h1>
+          <p class="icon"><img src=""></p>
+          <p class="pOne">Temperature:</p>
+          <p class="pTwo">Humidity:</p>
+          <p class="pThree">Wind Speed:</p>
         </div>
-        
-=======
+      </div>
+      <div class="tile is-parent">
+        <div class="tile is-child box">
+          <p class="title">Photo</p>
+          <div id="images">
 
-        <input type="text" class="search">
-        <button id="search">Search</button>
-
->>>>>>> 7602ce303e55d103fefa31f79c35bcfe5a217a9d
-        <div class="tile is-ancestor">
-          <div class="tile is-4 is-vertical is-parent">
-            <div class="tile is-child box">
-              <p class="title">Currency</p>
-              <h1 class="Currency"></h1>
-            <p class="cOne">US Dollar:</p>
-            <p class="cTwo">Euro:</p>
-            <p class="cThree">Exchange:</p>
-            </div>
-            <div class="tile is-child box">
-              <p class="title">Weather</p>
-<<<<<<< HEAD
-=======
-              <h1 class="city"></h1>
->>>>>>> 7602ce303e55d103fefa31f79c35bcfe5a217a9d
-              <p class="icon"><img src=""></p>
-              <p class="pOne">Temperature:</p>
-              <p class="pTwo">Humidity:</p>
-              <p class="pThree">Wind Speed:</p> 
-            </div>
-          </div>
-          <div class="tile is-parent">
-            <div class="tile is-child box">
-              <p class="title">Photo</p>
-              <div id="images">
-                
-              </div>
-            </div>
           </div>
         </div>
-<<<<<<< HEAD
+      </div>
+    </div>
 
-=======
->>>>>>> 7602ce303e55d103fefa31f79c35bcfe5a217a9d
-    
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="script.js"></script>
-<script src="currency-api.js"></script>
-<script src="photo-api.js"></script>
-<script src="weather-api.js"></script>
-<script src="currency-api.js"></script>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/currency-api.js"></script>
+  <script src="./assets/js/photo-api.js"></script>
+  <script src="./assets/js/weather-api.js"></script>
+
 </html>
