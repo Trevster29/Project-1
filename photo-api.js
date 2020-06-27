@@ -1,4 +1,4 @@
-$(".search").on("click", function() {
+$("#search").on("click", function() {
 
     var API_KEY = '17138553-d9b102c8586536763f3a11d32';
     var queryURL = "https://pixabay.com/api/?key="+API_KEY+"&q="+encodeURIComponent('red roses');
