@@ -20,18 +20,22 @@ $("#search").on("click", function () {
     console.log(data);
     if (parseInt(data.totalHits) > 0)
       $.each(data.hits, function (i, hit) {
-        console.log(hit.webformatURL);
-        var imageUrl = hit.webformatURL;
-
+        console.log(hit.previewURL);
+        var imageUrl = hit.previewURL;
         //Creating and storing an img tag
         var photo = $("<img>");
+        if (hit.previewWidth > hit.previewHeight) {
+          photo.addClass("wide");
+        } else if (hit.previewWidth < hit.previewHeight) {
+          photo.addClass("tall");
+        }
 
         //Setting the photo src attribute to imgUrl
         photo.attr("src", imageUrl);
         photo.attr("alt", "photo");
-
+        photo.addClass("grid");
         //prepending the photo to the image div
-        $("#images").prepend(photo);
+        $("#images").append(photo);
       });
     else
       console.log('No hits');
