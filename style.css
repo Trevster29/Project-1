@@ -1,14 +1,108 @@
-body {
-    padding: 0;
-    margin: 10;
-    background: palegoldenrod;
-    background-image: url(https://www.pngarts.com/files/4/World-Map-PNG-Background-Image.png);
-    background-size: cover;
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;} 
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  max-height: 600px ;
+  position: relative;
+  margin: auto;
 }
-head {
-    padding: 0;
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+/* Caption text */
+.text {
+  color: #fdfcfc;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+h1{
     text-align: center;
-    text-decoration: peru;
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+    
+}
+
+p{
+    text-align: center;
+    color: black;
+}
+
+nav {
+  float: left;
+  width: 28%;
+  height: 400px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+#images {
+  float: center;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 400px;  
+}
+
+ 
+.btn{
+  padding:30px;
+}
+
+.box {
+  background-color: #e2dfd1;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em #0a0a0a, 0 0 0 1px rgba(10,10,10,.02);
+  color: #4a4a4a;
+  display: block;
+  padding: 3.25rem;
+}
+
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* @media only screen and (max-width:1200px){
+  .slideshow-container {
+  max-width: 1000px;
+  max-height: 600px ;
+  position: relative;
+  margin: auto;
+} */
 }
