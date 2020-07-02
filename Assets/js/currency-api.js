@@ -23,7 +23,7 @@ $.ajax({
     $(".currencies").html("<h1>"+ response.name + "<h1>");
     $(".cOne").text("Source:" + response.source);
     $(".cTwo").text("OG number:" + response.quotes.USDUSD);
-    $(".cThree").text("Exchange:" + response.quotes.USDMXN);
+    $(".cThree").text("Exchange:" + response.quotes.USDEUR);
 
 });
 
