@@ -3,7 +3,11 @@ $("#search").on("click", function() {
 var APIKey = "7d072e672286081a47af4310fe4d0929";
 var currencies = $(".search").val();
 //here's query url
+<<<<<<< HEAD
 var queryURL = "https://api.currencylayer.com/live?access_key=7d072e672286081a47af4310fe4d0929"
+=======
+var queryURL = "https://api.currencylayer.com/live?access_key="
+>>>>>>> c90b847aeea442a619fc7d134cc0828faa144dbc
 + APIKey + "&q=" + currencies ;
 
 console.log(currencies);
